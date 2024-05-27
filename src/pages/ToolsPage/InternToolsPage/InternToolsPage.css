@@ -1,0 +1,65 @@
+.containerInternToolsPage {
+  background-color: #051428;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.container__bodyInternToolsPage {
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bodyItemInternToolsPage {
+  min-height: 100%;
+  width: 100%;
+  padding: 20px 0 50px 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.BreadcrumbsInternToolsPage {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.BreadcrumbLinksTools {
+  color: #ff5a78;
+  text-decoration-line: none;
+}
+
+.themeImageInternToolsPage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.ImageInternToolsPage {
+  background-image: url("../../../../public/tools-theme2.png");
+  height: 900px;
+  width: 90%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 12px;
+  display: grid;
+  align-items: start;
+}
+
+.decorationInternToolsPage {
+  width: 100%;
+  height: auto;
+  padding: 30px 0 0 0;
+  display: grid;
+  grid-gap: 24px;
+  grid-template-columns: auto auto auto auto;
+  justify-content: flex-start;
+}

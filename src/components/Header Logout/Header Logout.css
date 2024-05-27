@@ -1,0 +1,146 @@
+.header__container {
+    background-color: #051428;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerRow {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 3em;
+}
+
+.headerSubNavbar__Container {
+    width: 100%;
+    height: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.headerSubNavbar__Content {
+    width: 100vw;
+    height: 40px;
+    background-color: #838383;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headerSubNavbar {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.headerItem {
+    display: flex;
+    align-items: flex-start;
+}
+
+.LogOut {
+    width: 90px;
+    height: 35px;
+    align-items: center;         /*vertikale Ausrichtung*/
+    justify-content: center;    /*horizontale Ausrichtung*/
+    background: #838383;
+    display: flex;
+    color: #051428;
+    font-weight: bolder;
+    border-radius: 6px;
+    text-decoration-line: none;
+    border: none;
+}
+.LogOut:hover {
+    box-shadow: 1px 1px 15px 2px rgba(5, 220, 200, 1);
+    background-color: #8deadf;
+    color: white;
+    cursor: pointer;
+}
+
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 160px;
+    align-items: flex-start;
+}
+
+/*Style der Navbar:*/
+
+/*----------Navbar_Ebene_1--------------------------------------------------------------------------------------------------------------*/
+.Navbar_Ebene_1         {display: inline-block; color: white; font-size: 20px; list-style-type: none;}
+.Navbar_Ebene_1 ul      {display: inline; padding-inline-start: 0;}
+.Navbar_Ebene_1>ul>li   {display: inline-block; color: white; padding: 10px 60px 20px 60px; border-radius: 16px; position: relative;}
+
+#prozesse:hover         {background-color: rgba(100, 125, 235, 0.4)}
+#software:hover         {background-color: rgba(175, 220, 100, 0.4)}
+#tools:hover            {background-color: rgba(255, 90, 120, 0.4)}
+#links:hover            {background-color: rgba(5, 220, 203, 0.4)}
+
+.Navbar_Ebene_1_Links {color: white; text-decoration-line: none;}
+
+
+/*----------Navbar_Ebene_2--------------------------------------------------------------------------------------------------------------*/
+/*Switch On*/
+ul li:hover ul {display: inline; margin-top: 20px;}
+
+.Navbar_Ebene_2         {display: block; font-size: 20px; padding: 0; padding-inline-start: 0; text-align: center;}
+.Navbar_Ebene_2 ul      {display: none; position: absolute; left: 0; width: 200px;}
+.Navbar_Ebene_2>ul>li   {display: inline; padding: 6px 25px; color: white; border-radius: 0; position: relative; top: -4px;}
+
+#prozesse:hover ul li   {background-color: rgb(100, 125, 235)}
+#software:hover ul li   {background-color: rgb(175, 220, 100)}
+#tools:hover ul li      {background-color: rgb(255, 90, 120)}
+#links:hover ul li      {background-color: rgb(5, 220, 203)}
+
+.Navbar_Ebene_2_Links {color: white; text-decoration-line: none; padding: 2px 20px; border-radius: 8px;}
+.Navbar_Ebene_2_Links:hover { background-color: rgba(5, 20, 40, 0.4);}
+
+
+/*----------Navbar_Ebene_3--------------------------------------------------------------------------------------------------------------*/
+/*Switch On*/
+#Navbar_2_Element:hover .Navbar_Ebene_3 ul {display: block; text-align: left; margin-top: 7px;}
+#Navbar_2_Element:hover .Navbar_Ebene_3 ul li {display: block; background-color: rgba(5, 20, 40, 0.95); text-align: left;}
+#Navbar_3_Element:hover {background-color: rgba(44, 59, 122, 0.95) !important;}
+
+.Navbar_Ebene_3                 {display: inline; font-size: 20px; background-color: #ffffff;}
+.Navbar_Ebene_3 ul              {display: block; position: absolute; left: 0; width: max-content; z-index: 1;}
+.Navbar_Ebene_3 ul li           {display: none; color: white; padding: 10px 10px; border-radius: 0;}
+
+.Navbar_Ebene_3_Links {color: white; text-decoration-line: none;}
+
+.Navbar_Ebene_3 ul li::before   {content: ">"; padding-right: 10px; color: #647deb;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Ändern der Hintergrundfarbe von .headerSubNavbar__Container basierend auf gehovertem Listen-Element */
+#prozesse:hover~.headerSubNavbar__Container {background-color: rgb(100, 125, 235);}
+#software:hover .headerSubNavbar__Container {background-color: rgb(175, 220, 100);}
+#tools:hover .headerSubNavbar__Container {background-color: rgb(255, 90, 120);}
+#links:hover .headerSubNavbar__Container {background-color: rgb(5, 220, 203);}

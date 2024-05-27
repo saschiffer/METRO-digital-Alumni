@@ -1,0 +1,18 @@
+#intro {
+    text-align: justify;
+    text-align-last: none;
+    width: 1200px;
+    padding-bottom: 10px;
+}
+
+#step {
+    text-align: justify;
+    text-align-last: none;
+    width: 1200px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+#Komponente {
+    padding: 0 0 0 0;
+}

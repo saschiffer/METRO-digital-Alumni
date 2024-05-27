@@ -1,0 +1,66 @@
+.HomePageContainer {
+  background-color: #051428;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.HomePageContainer__body {
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomePageBodyItem {
+  min-height: 100%;
+  width: 100%;
+  padding: 20px 0 50px 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomePageBreadcrumbs {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.HomePageThemeImage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.HomePageImage {
+  background-image: url("../../../public/note-theme02.png");
+  height: 900px;
+  width: 90%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 12px;
+  display: grid;
+  align-items: start;
+}
+
+.HomePageDecoration {
+  width: 100%;
+  height: auto;
+  padding: 30px 0 0 0;
+  display: grid;
+  grid-gap: 24px;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+
+}
+
+.HomePageDecoImage {
+  height: auto;
+  width: 25%;
+}
