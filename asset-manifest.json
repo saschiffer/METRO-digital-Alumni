@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/METRO-digital-Alumni/static/css/main.82dffa6e.css",
+    "main.js": "/METRO-digital-Alumni/static/js/main.d885af86.js",
+    "static/js/453.2b5913c7.chunk.js": "/METRO-digital-Alumni/static/js/453.2b5913c7.chunk.js",
+    "static/media/azubi-theme02.png": "/METRO-digital-Alumni/static/media/azubi-theme02.eaaf384f24d85fcc5de5.png",
+    "static/media/links-theme.png": "/METRO-digital-Alumni/static/media/links-theme.16f5ccf61773512721b6.png",
+    "static/media/tools-theme2.png": "/METRO-digital-Alumni/static/media/tools-theme2.57f11ab39b868b6c5b8e.png",
+    "static/media/prozesse-theme.png": "/METRO-digital-Alumni/static/media/prozesse-theme.136bd5bc9de6dd349edf.png",
+    "static/media/software-theme02.png": "/METRO-digital-Alumni/static/media/software-theme02.c3b8101da9189200ca62.png",
+    "static/media/note-theme02.png": "/METRO-digital-Alumni/static/media/note-theme02.b3801a8960a42daa1290.png",
+    "static/media/screenshot14.png": "/METRO-digital-Alumni/static/media/screenshot14.d305f4ba0373ff200b5d.png",
+    "static/media/screenshot01.png": "/METRO-digital-Alumni/static/media/screenshot01.71e5b54805959ce01baa.png",
+    "static/media/screenshot03.png": "/METRO-digital-Alumni/static/media/screenshot03.6d0fd3c25ac329474e5c.png",
+    "static/media/screenshot06.png": "/METRO-digital-Alumni/static/media/screenshot06.71479bca87d38c5a6ded.png",
+    "static/media/screenshot07.png": "/METRO-digital-Alumni/static/media/screenshot07.d9fcc8154faba4981d5b.png",
+    "static/media/screenshot02.png": "/METRO-digital-Alumni/static/media/screenshot02.5c395c3987558a3ecf2d.png",
+    "static/media/screenshot11.png": "/METRO-digital-Alumni/static/media/screenshot11.ce1e5417f7f95fe9245e.png",
+    "static/media/screenshot05.png": "/METRO-digital-Alumni/static/media/screenshot05.1f7f71cebdb2b0efc8f5.png",
+    "static/media/screenshot04.png": "/METRO-digital-Alumni/static/media/screenshot04.f8c4bff4ec087eeeb20d.png",
+    "static/media/screenshot13.png": "/METRO-digital-Alumni/static/media/screenshot13.df5d3511566ddfa99789.png",
+    "static/media/screenshot10.png": "/METRO-digital-Alumni/static/media/screenshot10.e0329b0fe7ff7165ca4b.png",
+    "static/media/screenshot09.png": "/METRO-digital-Alumni/static/media/screenshot09.0496bbbb60f528e6d325.png",
+    "static/media/screenshot08.png": "/METRO-digital-Alumni/static/media/screenshot08.fa6c526ecbbddbcd9463.png",
+    "static/media/screenshot12.png": "/METRO-digital-Alumni/static/media/screenshot12.53ad736ebbd267492021.png",
+    "index.html": "/METRO-digital-Alumni/index.html",
+    "main.82dffa6e.css.map": "/METRO-digital-Alumni/static/css/main.82dffa6e.css.map",
+    "main.d885af86.js.map": "/METRO-digital-Alumni/static/js/main.d885af86.js.map",
+    "453.2b5913c7.chunk.js.map": "/METRO-digital-Alumni/static/js/453.2b5913c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82dffa6e.css",
+    "static/js/main.d885af86.js"
+  ]
+}
