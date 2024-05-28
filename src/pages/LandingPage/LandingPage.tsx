@@ -2,6 +2,8 @@
 import React from 'react';
 import './LandingPage.css';
 import { HeaderLoginComponent } from "../../components/Header Login/Header Login";
+import slogan from "../../images/slogan.png"
+import sketch from "../../images/sketch.png"
 
 export const LandingPageComponent: React.FC = () => {
 
@@ -17,8 +19,8 @@ export const LandingPageComponent: React.FC = () => {
                     <div className="themeImageLandingPage">
                         <div className="ImageLandingPage">
                             <div className="decorationLandingPage">
-                                <img className="decoImageLandingPage" src="slogan.png" alt="Slogan" />
-                                <img className="decoImageLandingPage" src="Sketch.png" alt="Sketch" />
+                                <img className="decoImageLandingPage" src={slogan} alt="Slogan" />
+                                <img className="decoImageLandingPage" src={sketch} alt="Sketch" />
                             </div>
                         </div>
                     </div>
