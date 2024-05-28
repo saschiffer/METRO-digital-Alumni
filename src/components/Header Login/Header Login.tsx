@@ -1,7 +1,7 @@
 // HeaderLogin.tsx
 import React, { useState } from 'react';
 import './Header Login.css';
-import logo from "../../logo/logo metro digital alumni.png";
+import logo from "../../images/logo metro digital alumni.png";
 import { useNavigate } from "react-router";
 import { isValidAccount } from "./account";
 
