@@ -1,8 +1,9 @@
 // account.tsx
 export const validAccounts = [
-    { username: "ausbilder", password: "12345678" },
-    { username: "azubi", password: "azubi" },
+    { username: "ausbilder", password: "ortem4202!" },
+    { username: "azubis", password: "ortem4202!" },
     { username: "saschiffer", password: "2403121987" },
+    { username: "testuser", password: "ortem4202!" },
     // Füge hier weitere gültige Benutzerkonten hinzu
 ];
 
