@@ -1,7 +1,7 @@
 //HeaderLogout.tsx
 import React, {useState} from 'react';
 import './Header Logout.css';
-import logo from "../../logo/logo metro digital alumni.png";
+import logo from "../../images/logo metro digital alumni.png";
 import {useNavigate} from "react-router";
 import {Link} from "react-router-dom";
 
