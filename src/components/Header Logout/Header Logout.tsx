@@ -156,7 +156,7 @@ export const HeaderLogoutComponent: React.FC = () => {
                                                             </li>
                                                             <li id="Navbar_3_Element">
                                                                 <Link className="Navbar_Ebene_3_Links"
-                                                                      to="/home/prozesse/sonstiges/bravo">
+                                                                      to="/home/prozesse/sonstige/bravo">
                                                                     Bravo!
                                                                 </Link>
                                                             </li>

@@ -1,23 +1,23 @@
-// ManualSoftwareApproval.tsx
+// ManualBravo.tsx
 import React from 'react';
 import './ManualPage.css';
-import { screenshots } from "../../Data/SoftwareApproval/Screenshots";
-import { textContent } from "../../Data/SoftwareApproval/TextContent";
-import { intros } from "../../Data/SoftwareApproval/Intros";
+import { screenshots } from "../../Data/Bravo/Screenshots";
+import { textContent } from "../../Data/Bravo/TextContent";
+import { intros } from "../../Data/Bravo/Intros";
 import { HeaderLogoutComponent } from "../../components/Header Logout/Header Logout";
 import { ManualComponent} from "../../components/Manual/Manual";
 import {Link} from "react-router-dom";
 
 const ManualsData = [{
-    title: "Ich würde gerne eine Software nutzen die bisher noch nicht geprüft wurde - was nun?",
+    title: "Meine Kollegen machen einen verdamt guten Job - was nun?",
     icon: "#",
     category: "processes",
     hrefs: [
-        "https://jira.metro.digital/servicedesk/customer/portal/257/create/335",
+        "https://metrodigitalinc.workhub.ai/bravo/#/app/home",
         "https://eac.metro.info/my-apps",
     ],
     linkTexts: [
-        "Bestellen eines Service Requests",
+        "Bravo!",
         "M|EAC - METRO Employee Application Cockpit",
     ],
 }];
@@ -28,7 +28,7 @@ const ManualContent: { screenshot: string; text: string; intro: string;}[] = tex
     intro: intros[index] || "",
 }));
 
-export const ManualSoftwareApprovalComponent: React.FC = () => {
+export const ManualBravoComponent: React.FC = () => {
 
     return (
         <div className="containerManualsPage">
@@ -37,9 +37,9 @@ export const ManualSoftwareApprovalComponent: React.FC = () => {
                 <div className="bodyItemManualsPage">
                     <div className="BreadcrumbsManualsPage">
                         <Link className="BreadcrumbLinksManuals" to="/home">Home</Link> &nbsp;/&nbsp;
-                        <Link className="BreadcrumbLinksManuals" to="/home/construction">Prozesse</Link> &nbsp;/&nbsp;
-                        <Link className="BreadcrumbLinksManuals" to="/home/construction">Ticketing</Link> &nbsp;/
-                        Software Freigabe
+                        <Link className="BreadcrumbLinksManuals" to="/home/prozesse">Prozesse</Link> &nbsp;/&nbsp;
+                        <Link className="BreadcrumbLinksManuals" to="/home/prozesse/sonstige">Sonstige</Link> &nbsp;/
+                        Bravo!
                     </div>
                 </div>
                 <div className="bodyItemManualsPage">

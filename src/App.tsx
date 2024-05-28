@@ -35,6 +35,7 @@ import {ManualSoftwareApprovalComponent} from "./pages/ManualPages/ManualSoftwar
 // Ebene 3 - Zeitmanagement
 import {ManualSicknessComponent} from "./pages/ManualPages/ManualSickness";
 // Ebene 3 - Sonstiges
+import {ManualBravoComponent} from "./pages/ManualPages/ManualBravo";
 // Ebene 3 - Plugin
 // Ebene 3 - Security
 // Ebene 3 - IDE
@@ -89,7 +90,7 @@ function App() {
                 <Route path="/home/prozesse/zeitmanagement/krank" element={<ManualSicknessComponent />} />
                 {/*Ebene 3 - Sonstiges*/}
                 <Route path="/home/prozesse/sonstige/benefits" element={<ManualConstructionComponent />} />
-                <Route path="/home/prozesse/sonstige/bravo" element={<ManualConstructionComponent />} />
+                <Route path="/home/prozesse/sonstige/bravo" element={<ManualBravoComponent />} />
                 {/*Ebene 3 - Plugin*/}
                 <Route path="/home/software/plugin/intelij-keypromoter" element={<ManualConstructionComponent />} />
                 <Route path="/home/software/plugin/intelij-discord" element={<ManualConstructionComponent />} />
