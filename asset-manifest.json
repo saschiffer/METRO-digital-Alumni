@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/METRO-digital-Alumni/static/css/main.82dffa6e.css",
-    "main.js": "/METRO-digital-Alumni/static/js/main.f13ae0a4.js",
+    "main.js": "/METRO-digital-Alumni/static/js/main.dc17b23a.js",
     "static/js/453.2b5913c7.chunk.js": "/METRO-digital-Alumni/static/js/453.2b5913c7.chunk.js",
     "static/media/azubi-theme02.png": "/METRO-digital-Alumni/static/media/azubi-theme02.eaaf384f24d85fcc5de5.png",
     "static/media/links-theme.png": "/METRO-digital-Alumni/static/media/links-theme.16f5ccf61773512721b6.png",
@@ -23,13 +23,15 @@
     "static/media/screenshot09.png": "/METRO-digital-Alumni/static/media/screenshot09.0496bbbb60f528e6d325.png",
     "static/media/screenshot08.png": "/METRO-digital-Alumni/static/media/screenshot08.fa6c526ecbbddbcd9463.png",
     "static/media/screenshot12.png": "/METRO-digital-Alumni/static/media/screenshot12.53ad736ebbd267492021.png",
+    "static/media/sketch.png": "/METRO-digital-Alumni/static/media/sketch.810081d21145a2245fcd.png",
+    "static/media/slogan.png": "/METRO-digital-Alumni/static/media/slogan.5d66f1a66271154d81ad.png",
     "index.html": "/METRO-digital-Alumni/index.html",
     "main.82dffa6e.css.map": "/METRO-digital-Alumni/static/css/main.82dffa6e.css.map",
-    "main.f13ae0a4.js.map": "/METRO-digital-Alumni/static/js/main.f13ae0a4.js.map",
+    "main.dc17b23a.js.map": "/METRO-digital-Alumni/static/js/main.dc17b23a.js.map",
     "453.2b5913c7.chunk.js.map": "/METRO-digital-Alumni/static/js/453.2b5913c7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82dffa6e.css",
-    "static/js/main.f13ae0a4.js"
+    "static/js/main.dc17b23a.js"
   ]
 }
